@@ -1,0 +1,15 @@
+User: hi i want sick leave
+Bot: {'select_leave_type': 'Sick Leave', 'from_date': '', 'to_date': '', 'reason_for_leave': ''}
+--------------------------------------------------
+User: i am going goa
+Bot: {'select_leave_type': '', 'from_date': '', 'to_date': '', 'reason_for_leave': ''}
+--------------------------------------------------
+User: i want leave 15 jan to 5 jan
+Bot: {'select_leave_type': '', 'from_date': '', 'to_date': '', 'reason_for_leave': ''}
+--------------------------------------------------
+User: i want leave 5 jan to 15 jan
+Bot: {'select_leave_type': 'Sick Leave', 'from_date': '5 jan', 'to_date': '15 jan', 'reason_for_leave': ''}
+--------------------------------------------------
+User: i am going goa
+Bot: {'select_leave_type': 'Sick Leave', 'from_date': '5 jan', 'to_date': '15 jan', 'reason_for_leave': 'i am going goa'}
+--------------------------------------------------
